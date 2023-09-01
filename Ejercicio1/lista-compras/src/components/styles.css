@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .App {
+    padding: 50px 400px 400px 400px;
+  }
+  
+  .app-title {
+    font-size: 30px;
+    margin-top: 0;
+  }
+  
+  .picker-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .picker {
+    padding: 12px 40px;
+    border: 3px solid black;
+    border-radius: 4px;
+    background-color: white;
+    font-size: 12px;
+  }
+  
+  .add-button {
+    background-color: #C8C8C8;
+    color: white;
+    border: none;
+    padding: 7px 20px;
+    border-radius: 4px;
+    margin-left: 10px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+  .item-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .item-price {
+    font-size: 10px;
+    color: grey;
+    margin-left: 5px;
+  }
+  
+  .item-quantity {
+    width: 70px;
+    padding: 5px 12px;
+    background-color: #C8C8C8;
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 4px;
+    margin-left: 10px;
+    font-size: 12px;
+  }
+  
+  .delete-button {
+    background-color: #C8C8C8;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  
+  .item-divider {
+    border: 0.5px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .total {
+    text-align: right;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .total-amount {
+    font-size: 14px;
+  }
+  
